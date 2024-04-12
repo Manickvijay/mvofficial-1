@@ -198,8 +198,8 @@ submit.addEventListener('submit',(e)=>{
 
     }).then(
 
-      message => alert(message)
+      message => alert(Message send successfully)
 
     );
-
+window.location.href = "https://mvprofilepage.netlify.app/";
 });
